@@ -15,7 +15,7 @@ const MenuItem = (item) => {
 class Menu extends React.PureComponent {
 
     renderItems() {
-        return this.props.items.map(i => <MenuItem { ...i }/> );
+        return this.props.items.map((i, index) => <MenuItem { ...i } key={ index }/> );
     }
 
     render() {

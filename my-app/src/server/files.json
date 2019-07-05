@@ -6,19 +6,70 @@
             "size": "2mb",
             "children": [        
                 {
-                    "name": "File 1",
-                    "type": "file",
-                    "size": "2mb"
+                    "name": "Folder 11",
+                    "type": "folder",
+                    "size": "2mb",
+                    "children":[
+                        {
+                            "name": "File 111",
+                            "type": "file",
+                            "size": "2mb"
+                        },
+                        {
+                            "name": "File 112",
+                            "type": "file",
+                            "size": "2mb"
+                        },
+                        {
+                            "name": "File 113",
+                            "type": "file",
+                            "size": "2mb"
+                        }
+                    ]
                 },
                 {
-                    "name": "File 2",
-                    "type": "file",
-                    "size": "2mb"
+                    "name": "Folder 12",
+                    "type": "folder",
+                    "size": "2mb",
+                    "children":[
+                        {
+                            "name": "File 121",
+                            "type": "file",
+                            "size": "2mb"
+                        },
+                        {
+                            "name": "File 122",
+                            "type": "file",
+                            "size": "2mb"
+                        },
+                        {
+                            "name": "File 123",
+                            "type": "file",
+                            "size": "2mb"
+                        }
+                    ]
                 },
                 {
-                    "name": "File 3",
-                    "type": "file",
-                    "size": "2mb"
+                    "name": "Folder 13",
+                    "type": "folder",
+                    "size": "2mb",
+                    "children":[
+                        {
+                            "name": "File 131",
+                            "type": "file",
+                            "size": "2mb"
+                        },
+                        {
+                            "name": "File 132",
+                            "type": "file",
+                            "size": "2mb"
+                        },
+                        {
+                            "name": "File 133",
+                            "type": "file",
+                            "size": "2mb"
+                        }
+                    ]
                 }
             ] 
         },
@@ -28,19 +79,70 @@
             "size": "2mb",
             "children": [        
                 {
-                    "name": "File 1",
-                    "type": "file",
-                    "size": "2mb"
+                    "name": "Folder 21",
+                    "type": "folder",
+                    "size": "2mb",
+                    "children":[
+                        {
+                            "name": "File 211",
+                            "type": "file",
+                            "size": "2mb"
+                        },
+                        {
+                            "name": "File 212",
+                            "type": "file",
+                            "size": "2mb"
+                        },
+                        {
+                            "name": "File 213",
+                            "type": "file",
+                            "size": "2mb"
+                        }
+                    ]
                 },
                 {
-                    "name": "File 2",
-                    "type": "file",
-                    "size": "2mb"
+                    "name": "Folder 22",
+                    "type": "folder",
+                    "size": "2mb",
+                    "children":[
+                        {
+                            "name": "File 221",
+                            "type": "file",
+                            "size": "2mb"
+                        },
+                        {
+                            "name": "File 222",
+                            "type": "file",
+                            "size": "2mb"
+                        },
+                        {
+                            "name": "File 223",
+                            "type": "file",
+                            "size": "2mb"
+                        }
+                    ]
                 },
                 {
-                    "name": "File 3",
-                    "type": "file",
-                    "size": "2mb"
+                    "name": "Folder 23",
+                    "type": "folder",
+                    "size": "2mb",
+                    "children":[
+                        {
+                            "name": "File 231",
+                            "type": "file",
+                            "size": "2mb"
+                        },
+                        {
+                            "name": "File 232",
+                            "type": "file",
+                            "size": "2mb"
+                        },
+                        {
+                            "name": "File 233",
+                            "type": "file",
+                            "size": "2mb"
+                        }
+                    ]
                 }
             ] 
         },
@@ -50,19 +152,70 @@
             "size": "2mb",
             "children": [        
                 {
-                    "name": "File 1",
-                    "type": "file",
-                    "size": "2mb"
+                    "name": "Folder 31",
+                    "type": "folder",
+                    "size": "2mb",
+                    "children":[
+                        {
+                            "name": "File 311",
+                            "type": "file",
+                            "size": "2mb"
+                        },
+                        {
+                            "name": "File 312",
+                            "type": "file",
+                            "size": "2mb"
+                        },
+                        {
+                            "name": "File 313",
+                            "type": "file",
+                            "size": "2mb"
+                        }
+                    ]
                 },
                 {
-                    "name": "File 2",
-                    "type": "file",
-                    "size": "2mb"
+                    "name": "Folder 32",
+                    "type": "folder",
+                    "size": "2mb",
+                    "children":[
+                        {
+                            "name": "File 321",
+                            "type": "file",
+                            "size": "2mb"
+                        },
+                        {
+                            "name": "File 322",
+                            "type": "file",
+                            "size": "2mb"
+                        },
+                        {
+                            "name": "File 323",
+                            "type": "file",
+                            "size": "2mb"
+                        }
+                    ]
                 },
                 {
-                    "name": "File 3",
-                    "type": "file",
-                    "size": "2mb"
+                    "name": "Folder 33",
+                    "type": "folder",
+                    "size": "2mb",
+                    "children":[
+                        {
+                            "name": "File 331",
+                            "type": "file",
+                            "size": "2mb"
+                        },
+                        {
+                            "name": "File 332",
+                            "type": "file",
+                            "size": "2mb"
+                        },
+                        {
+                            "name": "File 333",
+                            "type": "file",
+                            "size": "2mb"
+                        }
+                    ]
                 }
             ] 
         },
@@ -72,19 +225,70 @@
             "size": "2mb",
             "children": [        
                 {
-                    "name": "File 1",
-                    "type": "file",
-                    "size": "2mb"
+                    "name": "Folder 41",
+                    "type": "folder",
+                    "size": "2mb",
+                    "children":[
+                        {
+                            "name": "File 411",
+                            "type": "file",
+                            "size": "2mb"
+                        },
+                        {
+                            "name": "File 412",
+                            "type": "file",
+                            "size": "2mb"
+                        },
+                        {
+                            "name": "File 413",
+                            "type": "file",
+                            "size": "2mb"
+                        }
+                    ]
                 },
                 {
-                    "name": "File 2",
-                    "type": "file",
-                    "size": "2mb"
+                    "name": "Folder 42",
+                    "type": "folder",
+                    "size": "2mb",
+                    "children":[
+                        {
+                            "name": "File 421",
+                            "type": "file",
+                            "size": "2mb"
+                        },
+                        {
+                            "name": "File 422",
+                            "type": "file",
+                            "size": "2mb"
+                        },
+                        {
+                            "name": "File 423",
+                            "type": "file",
+                            "size": "2mb"
+                        }
+                    ]
                 },
                 {
-                    "name": "File 3",
-                    "type": "file",
-                    "size": "2mb"
+                    "name": "Folder 43",
+                    "type": "folder",
+                    "size": "2mb",
+                    "children":[
+                        {
+                            "name": "File 431",
+                            "type": "file",
+                            "size": "2mb"
+                        },
+                        {
+                            "name": "File 432",
+                            "type": "file",
+                            "size": "2mb"
+                        },
+                        {
+                            "name": "File 433",
+                            "type": "file",
+                            "size": "2mb"
+                        }
+                    ]
                 }
             ] 
         },
@@ -94,19 +298,70 @@
             "size": "2mb",
             "children": [        
                 {
-                    "name": "File 1",
-                    "type": "file",
-                    "size": "2mb"
+                    "name": "Folder 51",
+                    "type": "folder",
+                    "size": "2mb",
+                    "children":[
+                        {
+                            "name": "File 511",
+                            "type": "file",
+                            "size": "2mb"
+                        },
+                        {
+                            "name": "File 512",
+                            "type": "file",
+                            "size": "2mb"
+                        },
+                        {
+                            "name": "File 513",
+                            "type": "file",
+                            "size": "2mb"
+                        }
+                    ]
                 },
                 {
-                    "name": "File 2",
-                    "type": "file",
-                    "size": "2mb"
+                    "name": "Folder 52",
+                    "type": "folder",
+                    "size": "2mb",
+                    "children":[
+                        {
+                            "name": "File 521",
+                            "type": "file",
+                            "size": "2mb"
+                        },
+                        {
+                            "name": "File 522",
+                            "type": "file",
+                            "size": "2mb"
+                        },
+                        {
+                            "name": "File 523",
+                            "type": "file",
+                            "size": "2mb"
+                        }
+                    ]
                 },
                 {
-                    "name": "File 3",
-                    "type": "file",
-                    "size": "2mb"
+                    "name": "Folder 53",
+                    "type": "folder",
+                    "size": "2mb",
+                    "children":[
+                        {
+                            "name": "File 531",
+                            "type": "file",
+                            "size": "2mb"
+                        },
+                        {
+                            "name": "File 532",
+                            "type": "file",
+                            "size": "2mb"
+                        },
+                        {
+                            "name": "File 533",
+                            "type": "file",
+                            "size": "2mb"
+                        }
+                    ]
                 }
             ] 
         }
@@ -118,19 +373,36 @@
             "size": "2mb",
             "children": [        
                 {
-                    "name": "File 1",
+                    "name": "File 61",
                     "type": "file",
                     "size": "2mb"
                 },
                 {
-                    "name": "File 2",
+                    "name": "File 62",
                     "type": "file",
                     "size": "2mb"
                 },
                 {
-                    "name": "File 3",
+                    "name": "File 63",
                     "type": "file",
                     "size": "2mb"
+                },
+                {
+                    "name": "Folder 61",
+                    "type": "folder",
+                    "size": "2mb",
+                    "children": [
+                        {
+                            "name": "File 611",
+                            "type": "file",
+                            "size": "2mb"
+                        },
+                        {
+                            "name": "File 612",
+                            "type": "file",
+                            "size": "2mb"
+                        }
+                    ]
                 }
             ] 
         },
@@ -140,19 +412,36 @@
             "size": "2mb",
             "children": [        
                 {
-                    "name": "File 1",
+                    "name": "File 71",
                     "type": "file",
                     "size": "2mb"
                 },
                 {
-                    "name": "File 2",
+                    "name": "File 72",
                     "type": "file",
                     "size": "2mb"
                 },
                 {
-                    "name": "File 3",
+                    "name": "File 73",
                     "type": "file",
                     "size": "2mb"
+                },
+                {
+                    "name": "Folder 71",
+                    "type": "folder",
+                    "size": "2mb",
+                    "children": [
+                        {
+                            "name": "File 711",
+                            "type": "file",
+                            "size": "2mb"
+                        },
+                        {
+                            "name": "File 712",
+                            "type": "file",
+                            "size": "2mb"
+                        }
+                    ]
                 }
             ] 
         },
@@ -162,19 +451,36 @@
             "size": "2mb",
             "children": [        
                 {
-                    "name": "File 1",
+                    "name": "File 81",
                     "type": "file",
                     "size": "2mb"
                 },
                 {
-                    "name": "File 2",
+                    "name": "File 82",
                     "type": "file",
                     "size": "2mb"
                 },
                 {
-                    "name": "File 3",
+                    "name": "File 83",
                     "type": "file",
                     "size": "2mb"
+                },
+                {
+                    "name": "Folder 81",
+                    "type": "folder",
+                    "size": "2mb",
+                    "children": [
+                        {
+                            "name": "File 811",
+                            "type": "file",
+                            "size": "2mb"
+                        },
+                        {
+                            "name": "File 812",
+                            "type": "file",
+                            "size": "2mb"
+                        }
+                    ]
                 }
             ] 
         },
@@ -184,19 +490,36 @@
             "size": "2mb",
             "children": [        
                 {
-                    "name": "File 1",
+                    "name": "File 91",
                     "type": "file",
                     "size": "2mb"
                 },
                 {
-                    "name": "File 2",
+                    "name": "File 92",
                     "type": "file",
                     "size": "2mb"
                 },
                 {
-                    "name": "File 3",
+                    "name": "File 93",
                     "type": "file",
                     "size": "2mb"
+                },
+                {
+                    "name": "Folder 91",
+                    "type": "folder",
+                    "size": "2mb",
+                    "children": [
+                        {
+                            "name": "File 911",
+                            "type": "file",
+                            "size": "2mb"
+                        },
+                        {
+                            "name": "File 912",
+                            "type": "file",
+                            "size": "2mb"
+                        }
+                    ]
                 }
             ] 
         },

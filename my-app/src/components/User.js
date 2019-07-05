@@ -3,11 +3,16 @@ import PropTypes from 'prop-types';
 
 class User extends React.PureComponent {
 
+    onClick = () => {
+        const { id, name, onClick } = this.props;
+        onClick(id, name);
+    }
+
     render() {
-        const { name, org, os, onClick } = this.props;
+        const { name, org, os } = this.props;
 
         return (
-        <div className="user" onClick={ onClick  }>
+        <div className="user" onClick={ this.onClick  }>
             <span className="userIcon"/>
             <p className="name">{ name }</p>
             <p className="org">{ org }</p>

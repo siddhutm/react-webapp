@@ -7,14 +7,14 @@ class UserList extends React.Component {
 
 
     render() {
-        const { type, list } = this.props;
+        const { type, list, onClick } = this.props;
         if(type === 'list') {
             return 'later'
         }
 
         return (
             <div className="userList">
-                { list.map(l => <User { ...l } />) }
+                { list.map((l, index) => <User { ...l } key={ index } onClick={ onClick } />) }
             </div>
 
         )

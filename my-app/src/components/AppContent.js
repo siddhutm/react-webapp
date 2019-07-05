@@ -2,6 +2,7 @@ import React from 'react';
 import Menu from './Menu';
 import UserList from './UserList';
 import Loader from './loader';
+import UserDetail from './UserDetail';
 
 class AppContent extends React.PureComponent {
 
@@ -10,7 +11,10 @@ class AppContent extends React.PureComponent {
         this.state = {
             list: [],
             fetching: false,
-            fetched: false
+            fetched: false,
+            isDetailPage: false,
+            detailFetching: false,
+            detailFetched: false
         }
     }
 
@@ -25,13 +29,48 @@ class AppContent extends React.PureComponent {
         });
     }
 
+    onUserClick = (id, name) => {
+        this.fetchUserDetail(id, name);
+    }
+
+    fetchUserDetail = async (id, name) => {
+        this.setState({detailFetching:true});
+        const userDetailPromise = await fetch(`api/users/${id}`);
+        const userDetail = await userDetailPromise.json();
+        this.setState({
+            detailFetched: true,
+            detailFetching: false,
+            userDetail,
+            isDetailPage: true,
+            userId: id,
+            userName: name
+        });
+    }
+
+    onBack = () => {
+        this.setState({isDetailPage: false});
+    }
+
     renderContent() {
-        const { fetching, list } = this.state;
-        if(fetching) {
+        const { fetching, list, detailFetching, isDetailPage, userDetail, userId, userName } = this.state;
+        if(fetching || detailFetching) {
             return <Loader/>
         }
+
+        if(isDetailPage) {
+            const detailProps = {
+                folderList: userDetail,
+                onBack: this.onBack,
+                userId,
+                userName
+            };
+
+            return <UserDetail { ...detailProps }/>;
+        }
+
         const userListProps = {
-            list
+            list,
+            onClick: this.onUserClick
         };
 
         return (

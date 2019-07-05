@@ -17,3 +17,75 @@
     width: 48px;
     height: 48px;
 }
+
+.back {
+    display: block;
+    background-color: white;
+    color: black;
+    border: 2px solid #008CBA;
+    padding: 15px 32px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.previous {
+    display: block;
+    margin-top: 20px;
+    background-color: #fff;
+    color: black;
+    padding: 5px 20px;
+    font-size: 12px;
+    cursor: pointer;
+    border: 2px solid green;
+}
+
+/* .userDetail {
+    height: 100%; 
+} */
+
+.userDetailContent {
+    display: flex;
+    height: 100%;
+    margin-top: 40px;
+}
+
+.folderList {
+    width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fWrapper {
+    width: 180px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.fWrapper:hover {
+    background-color: lightblue;
+}
+
+.folder {
+    width: 120px;
+    height: 120px;
+    background: orange;
+    border-radius: 10px;
+}
+
+.file {
+    width: 120px;
+    height: 120px;
+    background: royalblue;
+}
+
+.fname {
+    margin:0px;
+}
+
+.accessLog {
+    border-left: 2px solid #efefef;
+    padding-left: 24px;
+}
