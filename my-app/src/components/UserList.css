@@ -43,8 +43,13 @@
     height: 75px;
 }
 
-.previous {
-    display: block;
+.buttons {
+    position: relative;
+    width: 65%;
+}
+
+.navBtn {
+    display: inline-block;
     margin-top: 20px;
     background-color: #fff;
     color: black;
@@ -52,6 +57,12 @@
     font-size: 12px;
     cursor: pointer;
     border: 2px solid green;
+    margin-right: 30px;
+}
+
+.clear {
+    position: absolute;
+    right: 0px;
 }
 
 /* .userDetail {
