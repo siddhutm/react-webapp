@@ -75,11 +75,17 @@ class UserDetail extends React.Component {
       
         return ( 
             <div className="userDetail">
-                <button className="back" onClick={ onBack  }>Back</button>
-                { this.stack.isEmpty() ? null : <button className="previous" onClick={ this.onPrevious }>Previous</button> }
-                <div className="userDetailContent">
-                    <div className="folderList">{ this.renderFolderList() }</div>
-                    <div className="accessLog">{ this.renderFileLogs() }</div>
+                <div className="userDetailheader">
+                    <button className="back" onClick={ onBack  }>Back</button>
+                    <h1>Machine Details</h1>
+                </div>
+                
+                <div className="btnAndContent">
+                    { this.stack.isEmpty() ? null : <button className="previous" onClick={ this.onPrevious }>Previous</button> }
+                    <div className="userDetailContent">
+                        <div className="folderList">{ this.renderFolderList() }</div>
+                        <div className="accessLog">{ this.renderFileLogs() }</div>
+                    </div>
                 </div>
             </div>
        );

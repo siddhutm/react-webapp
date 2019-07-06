@@ -1,5 +1,4 @@
 .App {
-  text-align: center;
   display: flex;
   min-height: 100vh;
 }
@@ -67,4 +66,9 @@
 
 .dataAnchor {
   background: url('./images/dataAnchor.jpg');
+}
+
+.placeHolder {
+    font-size: 4em;
+    color: #c4bdbd;
 }

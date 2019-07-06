@@ -3,11 +3,13 @@ import PropTypes from 'prop-types';
 
 
 const MenuItem = (item) => {
-    const classes = `menuItem ${item.selected ? 'selected' : ' '}`;
+    const { name, onSelect, value, selectedMenuItem } = item;
+    const classes = `menuItem ${selectedMenuItem === value ? 'selected' : ' '}`;
+
 
     return (
-        <div className={ classes }>
-            { item.name }
+        <div className={ classes } onClick={ () => onSelect(value)  }>
+            { name }
         </div>
     )
 }
@@ -15,7 +17,8 @@ const MenuItem = (item) => {
 class Menu extends React.PureComponent {
 
     renderItems() {
-        return this.props.items.map((i, index) => <MenuItem { ...i } key={ index }/> );
+        const { items, onSelect, selectedMenuItem } = this.props;
+        return items.map((i, index) => <MenuItem { ...i } key={ index } onSelect={ onSelect } selectedMenuItem={ selectedMenuItem } /> );
     }
 
     render() {
@@ -31,8 +34,15 @@ class Menu extends React.PureComponent {
     }
 }
 
-Menu.propTypes = {
-    items: PropTypes.array
+Menu.defaultProps = {
+    items: []
 };
+
+Menu.propTypes = {
+    items: PropTypes.array,
+    onSelect: PropTypes.func,
+    selectedMenuItem: PropTypes.string
+};
+
 
 export default Menu;

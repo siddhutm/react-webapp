@@ -14,7 +14,20 @@ class AppContent extends React.PureComponent {
             fetched: false,
             isDetailPage: false,
             detailFetching: false,
-            detailFetched: false
+            detailFetched: false,
+            selectedMenuItem: 'dashboard',
+            items: [{
+                name: 'Dashboard',
+                value: 'dashboard'
+            },
+            {
+                name: 'Menu Item one',
+                value: 'itemOne'
+            },
+            {
+                name: 'Menu Item two',
+                value: 'itemTwo'
+            }]
         }
     }
 
@@ -52,9 +65,13 @@ class AppContent extends React.PureComponent {
     }
 
     renderContent() {
-        const { fetching, list, detailFetching, isDetailPage, userDetail, userId, userName } = this.state;
+        const { fetching, list, detailFetching, isDetailPage, userDetail, userId, userName, selectedMenuItem } = this.state;
         if(fetching || detailFetching) {
             return <Loader/>
+        }
+
+        if(selectedMenuItem !== 'dashboard') {
+            return <p className="placeHolder">{ `<Place holder for menu item ${selectedMenuItem}>` }</p>;
         }
 
         if(isDetailPage) {
@@ -83,19 +100,18 @@ class AppContent extends React.PureComponent {
         )
     }
 
+    onMenuSelect = (value) => {
+        this.setState({
+            selectedMenuItem: value
+        })
+    }
+
     renderMenu() {
-        const items = [{
-            name: 'Dashboard',
-            selected: true
-        },
-        {
-            name: 'Menu Item one'
-        },
-        {
-            name: 'Menu Item two'
-        }];
+        const { items, selectedMenuItem } = this.state;
         const menuProps = {
-            items
+            items,
+            onSelect: this.onMenuSelect,
+            selectedMenuItem
         }
 
         return <Menu { ...menuProps }/>;

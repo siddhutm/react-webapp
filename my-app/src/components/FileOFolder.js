@@ -38,7 +38,8 @@ FileOFolder.defaultProps = {
 
 FileOFolder.propTypes = {
     type: PropTypes.string,
-    name: PropTypes.string
+    name: PropTypes.string,
+    onClick: PropTypes.func
 }
 
 export default FileOFolder;

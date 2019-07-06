@@ -1,6 +1,8 @@
 .userList {
     display: flex;
     flex-wrap: wrap;
+    border-top: 2px solid #efefef;
+    padding-top: 40px;
 }
 
 .user {
@@ -10,6 +12,15 @@
     border-radius: 5px;
     padding: 5px;
     margin: 10px;
+    background-color: #7590d4;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.user:hover {
+    border: 2px solid blue;
 }
 
 .userIcon {
@@ -19,13 +30,17 @@
 }
 
 .back {
-    display: block;
+    float: left;
     background-color: white;
     color: black;
     border: 2px solid #008CBA;
     padding: 15px 32px;
     font-size: 16px;
     cursor: pointer;
+}
+
+.toolbar {
+    height: 75px;
 }
 
 .previous {
@@ -47,6 +62,15 @@
     display: flex;
     height: 100%;
     margin-top: 40px;
+}
+
+.userDetailheader {
+    text-align: center;
+    height: 75px;
+}
+
+.btnAndContent {
+    border-top: 2px solid #efefef;
 }
 
 .folderList {
