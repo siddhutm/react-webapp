@@ -10,7 +10,7 @@
     height: 150px;
     border: 1px solid;
     border-radius: 5px;
-    padding: 5px;
+    padding: 15px;
     margin: 10px;
     background-color: #7590d4;
     color: #fff;
@@ -24,12 +24,10 @@
     margin: 10px 0 10px 0;
 }
 
-.col2 {
-    margin-left: 10%;
-}
-
 .col1 {
-   color: #171414 
+   color: #171414;
+   display: inline-block;
+    width: 50%;
 }
 
 .user:hover {
