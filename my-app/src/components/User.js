@@ -13,10 +13,18 @@ class User extends React.PureComponent {
 
         return (
         <div className="user" onClick={ this.onClick  }>
-            <span className="userIcon"/>
-            <p className="name">{ name }</p>
-            <p className="org">{ org }</p>
-            <p className="os">{ os }</p>
+            <div className="row">
+                <span className="col1">Name: </span>
+                <span className="col2 name">{ name }</span>
+            </div>
+            <div className="row">
+                <span className="col1">Organisation: </span>
+                <span className="col2 org">{ org }</span>
+            </div>
+            <div className="row">
+                <span className="col1">OS: </span>
+                <span className="col2 os">{ os }</span>
+            </div>
         </div>
         );
     }

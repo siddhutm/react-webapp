@@ -17,15 +17,15 @@ class AppContent extends React.PureComponent {
             detailFetched: false,
             selectedMenuItem: 'dashboard',
             items: [{
-                name: 'Dashboard',
+                name: 'User Dashboard',
                 value: 'dashboard'
             },
             {
-                name: 'Menu Item one',
+                name: 'Profile',
                 value: 'itemOne'
             },
             {
-                name: 'Menu Item two',
+                name: 'Certifications',
                 value: 'itemTwo'
             }]
         }
@@ -93,7 +93,7 @@ class AppContent extends React.PureComponent {
         return (
             <div>
                 <div className="toolbar">
-                <h1>Users</h1>
+                <h1 className="header">Users</h1>
                 </div>
                 <UserList {...userListProps  }/>
             </div>

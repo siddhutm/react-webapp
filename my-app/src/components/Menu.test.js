@@ -8,6 +8,7 @@ configure({ adapter: new Adapter() });
 
 import Menu from './Menu';
 
+
 describe('Menu Component', () => {
     it('by default menu is empty', () => {
         const wrapper = mount(<Menu/>);
@@ -35,4 +36,5 @@ describe('Menu Component', () => {
         wrapper.find('.menuItem').at(1).simulate('click');
         assert(callBack.calledWith('item2'));
     })
+
 })

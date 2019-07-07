@@ -15,8 +15,21 @@
     background-color: #7590d4;
     color: #fff;
     font-size: 18px;
-    text-align: center;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    margin: 10px 0 10px 0;
+}
+
+.col2 {
+    margin-left: 10%;
+}
+
+.col1 {
+   color: #171414 
 }
 
 .user:hover {
@@ -37,6 +50,12 @@
     padding: 15px 32px;
     font-size: 16px;
     cursor: pointer;
+    box-shadow: 1px 1px;
+    border-radius: 5px;
+}
+
+.header {
+    color: #8f8989;
 }
 
 .toolbar {
@@ -56,8 +75,10 @@
     padding: 5px 20px;
     font-size: 12px;
     cursor: pointer;
-    border: 2px solid green;
     margin-right: 30px;
+    border: 1.5px solid #abb8d9;
+    box-shadow: 1px 1px;
+    border-radius: 5px;
 }
 
 .clear {

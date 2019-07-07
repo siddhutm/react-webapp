@@ -108,7 +108,7 @@ class UserDetail extends React.Component {
         if(!prevBtn && !nextBtn) {
             return null
         }
-        const clearBtn = (!prevBtn && nextBtn) ? <button className="navBtn clear" onClick={ this.onClear }>Clear</button> : null
+        const clearBtn = (!prevBtn && nextBtn) ? <button className="navBtn clear" onClick={ this.onClear }>Clear Navigation History</button> : null
 
         return (
             <div className="buttons">
@@ -125,8 +125,8 @@ class UserDetail extends React.Component {
         return ( 
             <div className="userDetail">
                 <div className="userDetailheader">
-                    <button className="back" onClick={ onBack  }>Back</button>
-                    <h1>Machine Details</h1>
+                    <button className="back" onClick={ onBack  }>Back to Users</button>
+                    <h1 className="header">User File Explorer</h1>
                 </div>
                 
                 <div className="btnAndContent">

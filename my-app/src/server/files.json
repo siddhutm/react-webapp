@@ -1,7 +1,7 @@
 {
     "1": [
         {
-            "name": "Folder 1",
+            "name": "Desktop",
             "type": "folder",
             "size": "2mb",
             "children": [        
@@ -74,7 +74,7 @@
             ] 
         },
         {
-            "name": "Folder 2",
+            "name": "Downloads",
             "type": "folder",
             "size": "2mb",
             "children": [        
@@ -147,7 +147,7 @@
             ] 
         },
         {
-            "name": "Folder 3",
+            "name": "Documents",
             "type": "folder",
             "size": "2mb",
             "children": [        
@@ -220,7 +220,7 @@
             ] 
         },
         {
-            "name": "Folder 4",
+            "name": "Important files",
             "type": "folder",
             "size": "2mb",
             "children": [        
@@ -293,7 +293,7 @@
             ] 
         },
         {
-            "name": "Folder 5",
+            "name": "Customer Files",
             "type": "folder",
             "size": "2mb",
             "children": [        
@@ -368,7 +368,7 @@
     ],
     "2": [
         {
-            "name": "Folder 6",
+            "name": "Desktop",
             "type": "folder",
             "size": "2mb",
             "children": [        
@@ -407,7 +407,7 @@
             ] 
         },
         {
-            "name": "Folder 7",
+            "name": "Downloads",
             "type": "folder",
             "size": "2mb",
             "children": [        
@@ -446,7 +446,7 @@
             ] 
         },
         {
-            "name": "Folder 8",
+            "name": "Documents",
             "type": "folder",
             "size": "2mb",
             "children": [        
@@ -485,7 +485,7 @@
             ] 
         },
         {
-            "name": "Folder 9",
+            "name": "Integration Documents",
             "type": "folder",
             "size": "2mb",
             "children": [        
@@ -524,7 +524,7 @@
             ] 
         },
         {
-            "name": "Folder 10",
+            "name": "Design Documents",
             "type": "folder",
             "size": "2mb",
             "children": [        
@@ -548,7 +548,7 @@
     ],
     "3": [
         {
-            "name": "Folder 11",
+            "name": "Desktop",
             "type": "folder",
             "size": "2mb",
             "children": [        
@@ -570,7 +570,7 @@
             ] 
         },
         {
-            "name": "Folder 12",
+            "name": "Documents",
             "type": "folder",
             "size": "2mb",
             "children": [        
@@ -592,7 +592,7 @@
             ] 
         },
         {
-            "name": "Folder 13",
+            "name": "Downloads",
             "type": "folder",
             "size": "2mb",
             "children": [        
@@ -614,7 +614,7 @@
             ] 
         },
         {
-            "name": "Folder 14",
+            "name": "Test cases",
             "type": "folder",
             "size": "2mb",
             "children": [        
@@ -636,7 +636,7 @@
             ] 
         },
         {
-            "name": "Folder 15",
+            "name": "Test Documents",
             "type": "folder",
             "size": "2mb",
             "children": [        
@@ -660,7 +660,7 @@
     ],
     "4": [
         {
-            "name": "Folder 16",
+            "name": "Desktop",
             "type": "folder",
             "size": "2mb",
             "children": [        
@@ -682,7 +682,7 @@
             ] 
         },
         {
-            "name": "Folder 17",
+            "name": "Documents",
             "type": "folder",
             "size": "2mb",
             "children": [        
@@ -704,7 +704,7 @@
             ] 
         },
         {
-            "name": "Folder 18",
+            "name": "Downloads",
             "type": "folder",
             "size": "2mb",
             "children": [        
@@ -726,7 +726,7 @@
             ] 
         },
         {
-            "name": "Folder 19",
+            "name": "Travel Docs",
             "type": "folder",
             "size": "2mb",
             "children": [        
@@ -748,7 +748,7 @@
             ] 
         },
         {
-            "name": "Folder 20",
+            "name": "Receipts",
             "type": "folder",
             "size": "2mb",
             "children": [        
@@ -772,7 +772,7 @@
     ],
     "5": [
         {
-            "name": "Folder 21",
+            "name": "Desktop",
             "type": "folder",
             "size": "2mb",
             "children": [        
@@ -794,7 +794,7 @@
             ] 
         },
         {
-            "name": "Folder 22",
+            "name": "Documents",
             "type": "folder",
             "size": "2mb",
             "children": [        
@@ -816,7 +816,7 @@
             ] 
         },
         {
-            "name": "Folder 23",
+            "name": "Downloads",
             "type": "folder",
             "size": "2mb",
             "children": [        
@@ -838,7 +838,7 @@
             ] 
         },
         {
-            "name": "Folder 24",
+            "name": "Employee Salary",
             "type": "folder",
             "size": "2mb",
             "children": [        
@@ -860,7 +860,7 @@
             ] 
         },
         {
-            "name": "Folder 25",
+            "name": "Hike Docs",
             "type": "folder",
             "size": "2mb",
             "children": [        
@@ -884,7 +884,7 @@
     ],
     "6": [
         {
-            "name": "Folder 26",
+            "name": "Desktop",
             "type": "folder",
             "size": "2mb",
             "children": [        
@@ -906,7 +906,7 @@
             ] 
         },
         {
-            "name": "Folder 27",
+            "name": "Documents",
             "type": "folder",
             "size": "2mb",
             "children": [        
@@ -928,7 +928,7 @@
             ] 
         },
         {
-            "name": "Folder 28",
+            "name": "Downloads",
             "type": "folder",
             "size": "2mb",
             "children": [        
@@ -950,7 +950,7 @@
             ] 
         },
         {
-            "name": "Folder 29",
+            "name": "Tax documents",
             "type": "folder",
             "size": "2mb",
             "children": [        
@@ -972,7 +972,7 @@
             ] 
         },
         {
-            "name": "Folder 30",
+            "name": "Expenses",
             "type": "folder",
             "size": "2mb",
             "children": [        
@@ -996,7 +996,7 @@
     ],
     "7": [
         {
-            "name": "Folder 31",
+            "name": "Desktop",
             "type": "folder",
             "size": "2mb",
             "children": [        
@@ -1018,7 +1018,7 @@
             ] 
         },
         {
-            "name": "Folder 32",
+            "name": "Documents",
             "type": "folder",
             "size": "2mb",
             "children": [        
@@ -1040,7 +1040,7 @@
             ] 
         },
         {
-            "name": "Folder 33",
+            "name": "Downloads",
             "type": "folder",
             "size": "2mb",
             "children": [        
@@ -1062,7 +1062,7 @@
             ] 
         },
         {
-            "name": "Folder 34",
+            "name": "Expenses",
             "type": "folder",
             "size": "2mb",
             "children": [        
@@ -1084,7 +1084,7 @@
             ] 
         },
         {
-            "name": "Folder 35",
+            "name": "Savings",
             "type": "folder",
             "size": "2mb",
             "children": [        
@@ -1108,7 +1108,7 @@
     ],
     "8": [
         {
-            "name": "Folder 36",
+            "name": "Desktop",
             "type": "folder",
             "size": "2mb",
             "children": [        
@@ -1130,7 +1130,7 @@
             ] 
         },
         {
-            "name": "Folder 37",
+            "name": "Documents",
             "type": "folder",
             "size": "2mb",
             "children": [        
@@ -1152,7 +1152,7 @@
             ] 
         },
         {
-            "name": "Folder 38",
+            "name": "Downloads",
             "type": "folder",
             "size": "2mb",
             "children": [        
@@ -1174,7 +1174,7 @@
             ] 
         },
         {
-            "name": "Folder 39",
+            "name": "Receipts",
             "type": "folder",
             "size": "2mb",
             "children": [        
@@ -1196,7 +1196,7 @@
             ] 
         },
         {
-            "name": "Folder 40",
+            "name": "Bills",
             "type": "folder",
             "size": "2mb",
             "children": [        
@@ -1220,7 +1220,7 @@
     ],
     "9": [
         {
-            "name": "Folder 41",
+            "name": "Desktop",
             "type": "folder",
             "size": "2mb",
             "children": [        
@@ -1242,7 +1242,7 @@
             ] 
         },
         {
-            "name": "Folder 42",
+            "name": "Documents",
             "type": "folder",
             "size": "2mb",
             "children": [        
@@ -1264,7 +1264,7 @@
             ] 
         },
         {
-            "name": "Folder 43",
+            "name": "Downloads",
             "type": "folder",
             "size": "2mb",
             "children": [        
@@ -1286,7 +1286,7 @@
             ] 
         },
         {
-            "name": "Folder 44",
+            "name": "Catalog",
             "type": "folder",
             "size": "2mb",
             "children": [        
@@ -1308,7 +1308,7 @@
             ] 
         },
         {
-            "name": "Folder 45",
+            "name": "Images",
             "type": "folder",
             "size": "2mb",
             "children": [        
@@ -1332,7 +1332,7 @@
     ],
     "10": [
         {
-            "name": "Folder 46",
+            "name": "Desktop",
             "type": "folder",
             "size": "2mb",
             "children": [        
@@ -1354,7 +1354,7 @@
             ] 
         },
         {
-            "name": "Folder 47",
+            "name": "Documents",
             "type": "folder",
             "size": "2mb",
             "children": [        
@@ -1376,7 +1376,7 @@
             ] 
         },
         {
-            "name": "Folder 48",
+            "name": "Downloads",
             "type": "folder",
             "size": "2mb",
             "children": [        
@@ -1398,7 +1398,7 @@
             ] 
         },
         {
-            "name": "Folder 49",
+            "name": "Order List",
             "type": "folder",
             "size": "2mb",
             "children": [        
@@ -1420,7 +1420,7 @@
             ] 
         },
         {
-            "name": "Folder 50",
+            "name": "Processed Orders",
             "type": "folder",
             "size": "2mb",
             "children": [        
